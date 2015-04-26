@@ -9,6 +9,6 @@ package zenzile.goodsdelivery.domain;
  *
  * @author SIHLE
  */
-public class Sender {
+public interface Person {
     
 }
