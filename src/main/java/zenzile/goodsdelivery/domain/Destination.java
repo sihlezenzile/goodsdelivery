@@ -10,6 +10,26 @@ package zenzile.goodsdelivery.domain;
  *
  * @author SIHLE
  */
-public class Destination {
+public class Destination implements Address{
+
+    @Override
+    public String getStreet() {
+        return "";
+    }
+
+    @Override
+    public String gettSuburb() {
+        return "";
+    }
+
+    @Override
+    public String getTown() {
+        return "";
+    }
+
+    @Override
+    public int getCode() {
+        return 0;
+    }
 
 }
